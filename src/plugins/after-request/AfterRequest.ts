@@ -7,4 +7,3 @@ export type afterRequestPluginOutput = {
 export interface AfterRequest {
     (responseText: string, params?: Record<string, string>): Promise<afterRequestPluginOutput>;
 }
-
